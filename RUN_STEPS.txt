@@ -1,0 +1,9 @@
+1. Copy champion_model.joblib from Task 04 into this folder.
+2. Create public GitHub repo: rabtech-real-time-ml-api-capstone
+3. Upload every file including champion_model.joblib.
+4. Run: pip install -r requirements.txt
+5. Run: pytest -v
+6. Run: uvicorn app:app --reload
+7. Open http://127.0.0.1:8000/docs and test POST /predict.
+8. If Docker is installed: docker build -t rabtech-ml-api . then docker run -p 8000:8000 rabtech-ml-api
+9. Submit the public GitHub repository only after validation succeeds.
